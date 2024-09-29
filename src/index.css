@@ -1,0 +1,55 @@
+/* Custom styles for product cards */
+.product-card {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Shopping Cart */
+.shopping-cart {
+  background-color: #2d2d2d; /* เปลี่ยนสีพื้นหลังให้เข้มขึ้น */
+  color: #ffffff; /* เปลี่ยนสีข้อความให้เป็นสีขาว */
+}
+
+.shopping-cart h2 {
+  color: #ff4081; /* เปลี่ยนสีหัวข้อให้เป็นสีชมพูเข้ม */
+}
+
+.cart-item {
+  background-color: #3a3a3a; /* เปลี่ยนสีพื้นหลังของรายการสินค้า */
+  color: #ffffff; /* เปลี่ยนสีข้อความของรายการสินค้า */
+}
+
+.cart-summary {
+  background-color: #3a3a3a; /* เปลี่ยนสีพื้นหลังของสรุปยอด */
+  color: #ffffff; /* เปลี่ยนสีข้อความของสรุปยอด */
+}
+
+/* Cart Items */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Add this line */
+}
+
+.cart-item .flex {
+  flex-wrap: wrap; /* Add this line */
+}
+
+/* Header */
+h1 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Button */
+button {
+  background-color: #000000; /* เปลี่ยนสีพื้นหลังเป็นสีดำ */
+  color: #ffffff; /* เปลี่ยนสีข้อความเป็นสีขาว */
+}
